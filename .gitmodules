@@ -1,0 +1,3 @@
+[submodule "passel-js"]
+	path = passel-js
+	url = https://github.com/somedumbfox/passel-js.git
