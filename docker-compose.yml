@@ -1,0 +1,18 @@
+
+version: '3.0'
+services:
+  web:
+    build:
+      context: ./
+      target: build
+    command: npm run start
+    image: passel-js
+    environment:
+      - SQL=/data/DOCKERdb.sqlite
+      - TASKINTERVAL=600
+    volumes:
+      - DATA:/data/
+
+volumes:
+  DATA:
+    external: true
