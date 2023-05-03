@@ -17,4 +17,4 @@ jobs:
     - name: Init Repo
       run: git submodule update --init --recursive
     - name: Build Image
-      run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
+      run: docker build . --file dockerfile --tag my-image-name:$(date +%s)
