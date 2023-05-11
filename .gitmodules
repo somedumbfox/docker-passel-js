@@ -2,4 +2,4 @@
 	path = passel-js
 	url = https://github.com/somedumbfox/passel-js.git
 [submodule "passe-js"]
-	brach = main
+	branch = main
