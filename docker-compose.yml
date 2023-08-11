@@ -12,7 +12,7 @@ services:
       - SQLPass=${SQLPass}
       - TASKINTERVAL=${TASKINTERVAL}
     volumes:
-      - DATA:${DATA}
+      - DATA:${DATAPATH}
 
 volumes:
   DATA:
