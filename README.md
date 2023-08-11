@@ -50,7 +50,7 @@ The next step is the create the external volume for Docker to use. When you laun
 
 Then input the name `DATA` for the volume name.
 
-![Docker Name Volume](images/DockerDATACreated.png)
+![Docker Name Volume](images/DockerDATAName.png)
 
 On success, you should now see a Volume named `DATA`
 
