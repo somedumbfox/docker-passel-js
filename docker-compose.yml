@@ -2,15 +2,17 @@
 version: '3.0'
 services:
   web:
-    build:
-      context: ./
-      target: build
-    command: npm run start
+    image: ghcr.io/somedumbfox/docker-passel-js:main
+    command: npm run register && npm run start
     environment:
-      - SQL=/data/DOCKERdb.sqlite
-      - TASKINTERVAL=600
+      - TOKEN=${TOKEN}
+      - clientId=${clientId}
+      - SQL=${SQL}
+      - SQLUser=${SQLUser}
+      - SQLPass=${SQLPass}
+      - TASKINTERVAL=${TASKINTERVAL}
     volumes:
-      - DATA:/data/
+      - DATA:${DATA}
 
 volumes:
   DATA:
