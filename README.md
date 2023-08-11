@@ -1,3 +1,4 @@
+![Docker Passel JS](images/passel-js.jpg)
 [![Docker](https://github.com/somedumbfox/docker-passel-js/actions/workflows/docker-publish.yml/badge.svg?branch=main)](https://github.com/somedumbfox/docker-passel-js/actions/workflows/docker-publish.yml)
 
 # Docker Implementation
@@ -5,8 +6,8 @@
 ## Contents
 
 - [Prerequisites](#prerequisites)
-- Setup
-- Running the container
+- [Setup](#setup)
+- [Running the container](#running-the-container)
 
 ## Prerequisites
 
