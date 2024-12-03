@@ -9,4 +9,5 @@ ENV SQLUser=User
 ENV SQLPass=Password
 RUN npm install
 COPY . /
+CMD ["npm", "register"]
 CMD ["npm", "start"]
