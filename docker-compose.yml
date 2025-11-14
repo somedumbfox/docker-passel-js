@@ -3,7 +3,6 @@ version: '3.0'
 services:
   web:
     image: ghcr.io/somedumbfox/docker-passel-js:main
-    command: npm run start
     environment:
       - TOKEN=${TOKEN}
       - clientId=${clientId}
